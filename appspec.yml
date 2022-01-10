@@ -12,3 +12,11 @@ hooks:
    - location: run.sh
      timeout: 300
      runas: root
+  ApplicationStop:
+   - location: ron.sh
+     timeout: 300
+     runas: root
+  BeforeInstall:
+   - location: cies.sh
+     timeout: 300
+     runas: root
