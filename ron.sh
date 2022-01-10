@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo yum update -y
+sudo yum -y update
 sudo service docker stop
